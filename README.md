@@ -6,7 +6,7 @@ An end-to-end Data Analytics & Business Intelligence solution analyzing product 
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard Screenshot](images/dashboard_overview.png)
+![Dashboard Overview](./dashboard_overview.png)
 
 ---
 
