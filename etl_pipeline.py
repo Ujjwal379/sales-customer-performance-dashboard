@@ -71,7 +71,7 @@ CREATE TABLE stg_sales_data (
     profit_margin_pct NUMERIC
 );
 """
-cursor.execute(create_table_sql)
+cursor.execute("TRUNCATE TABLE stg_sales_data;")
 
 # Insert rows directly
 insert_sql = """
