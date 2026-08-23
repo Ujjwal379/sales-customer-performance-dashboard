@@ -38,12 +38,11 @@ print("Writing data to PostgreSQL...")
 import os
 
 # Database credentials (pulls from GitHub Secrets or falls back to defaults)
-host = os.getenv("DB_HOST") or "sales-db-project-guptaujjwal379-cc5c.d.aivencloud.com"
-port = os.getenv("DB_PORT") or "25244"
-dbname = os.getenv("DB_NAME") or "defaultdb"
-user = os.getenv("DB_USER") or "avnadmin"
-password = os.getenv("DB_PASSWORD") or "AVNS_sqkx4vCc8alsbvnlyS0"
-
+host = "sales-db-project-guptaujjwal379-cc5c.d.aivencloud.com"
+port = "25244"
+dbname = "defaultdb"
+user = "avnadmin"
+password = "AVNS_sqkx4vCc8alsbvnlyS0"
 conn = psycopg2.connect(
     host=host,
     port=port,
